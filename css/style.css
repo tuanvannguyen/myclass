@@ -1,5 +1,12 @@
 /* Author: TuanNV */
-
+* {
+	padding: 0px;
+	margin: 0px;
+	background-color: blue;
+}
+.clear {
+	clear: bold;
+}
 body {
 	font-family: Tahoma;
 }
