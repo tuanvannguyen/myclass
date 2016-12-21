@@ -33,7 +33,7 @@
     margin-top: 5px;
 }
 #footer .comment .left{
-    height: 77%;
+    height: 90%;
     width: 10%;
     display: inline-block;
      float: left;
@@ -41,7 +41,6 @@
     font-size: 40px;
     font-family: Tahoma,sans-serif;
     text-transform: capitalize;
-    padding-top: 10px;
 }
 #footer .comment .right{
     width: 89%;
