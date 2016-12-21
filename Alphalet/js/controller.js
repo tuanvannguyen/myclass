@@ -10,7 +10,8 @@ function comment() {
         if (name != '') {
             $('#table').each(function (idx) {
                 row = "<tr>";
-                row += '<td rowspan="2" class="item-0 abc-' + alpha + '"><h1>' + alpha + "</h1></td>";
+                // row += '<td rowspan="2" class="item-0 abc-' + alpha + '"><h1>' + alpha + "</h1></td>";
+                row += '<td rowspan="2"><img src="image/' + alpha + '.png"></td>';
                 row += "<td class='item-1'>" + name + "</td>";
                 row += "</tr>";
                 row += "<tr>";
@@ -18,9 +19,9 @@ function comment() {
                 row += "</tr>";
             });
             $('#table tbody').append(row);
-            var back = ["#ff4000", "#80ff00", "#00ff00", "#00ffff", "#bf00ff", "#000080", "#0000FF", "#228B22"];
-            var rand = back[Math.floor(Math.random() * back.length)];
-            $('.abc-' + alpha + '').css("background", rand);
+            // var back = ["#ff4000", "#80ff00", "#00ff00", "#00ffff", "#bf00ff", "#000080", "#0000FF", "#228B22"];
+            // var rand = back[Math.floor(Math.random() * back.length)];
+            // $('.abc-' + alpha + '').css("background", rand);
         }
     })
 }
