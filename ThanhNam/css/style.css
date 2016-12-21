@@ -1,0 +1,38 @@
+*{margin:0px;padding:0px;}
+.wapper{
+	width:400px;
+	margin:auto;
+}
+
+.comment .you-name{
+	margin:100px 0px 10px 0px;
+}
+.comment .bt-coment{
+ margin: 9px 0px 0px 2px;
+}
+#bt-comment{
+	width:100px;
+	height:30px;
+}
+
+.info{
+	margin:80px 0px 0px 0px;
+	border:1px solid black;
+	height:500px;
+}
+.people-comment{
+	border-bottom:1px solid #ccc8c8;
+	height:51px;
+	padding:5px;
+}
+.avata{
+	float:left;
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:36px;
+}
+.info-people{
+	float:left;
+	margin:0px 0px 0px 10px;
+}
