@@ -31,17 +31,123 @@
 		}
 		#container #content .comment{
 			width: 100%;
-			height: 55px;
+			height: 70px;
 			border-bottom: 1px solid #cdcdcd;
 		}
 		.avatar {
 			float: left;
-			height: 55px;
-			width: 55px;
+			height: 70px;
+			width: 70px;
+			background: url("img/alphabet.jpg");
 		}
-		/*p {
-			margin-top: 5px;
-		}*/
+		#content .comment .a {
+			background-position: -152px -160px;
+		}
+		#content .comment .b {
+			background-position: -382px -160px;
+		}
+		#content .comment .c {
+			background-position: -612px -160px;
+		}
+		#content .comment .d {
+			background-position: -842px -160px;
+		}
+		#content .comment .e {
+			background-position: -1072px -160px;
+		}
+		#content .comment .f {
+			background-position: -1302px -160px;
+		}
+		#content .comment .g {
+			background-position: -152px -380px;
+		}
+		#content .comment .h {
+			background-position: -382px -380px;
+		}
+		#content .comment .i{
+			background-position: -612px -380px;
+		}
+		#content .comment .j {
+			background-position: -842px -380px;
+		}
+		#content .comment .k {
+			background-position: -1072px -380px;
+		}
+		#content .comment .l {
+			background-position: -1302px -380px;
+		}
+		#content .comment .m {
+			background-position: -152px -600px;
+		}
+		#content .comment .n {
+			background-position: -382px -600px;
+		}
+		#content .comment .o{
+			background-position: -612px -600px;
+		}
+		#content .comment .p {
+			background-position: -842px -600px;
+		}
+		#content .comment .q {
+			background-position: -1072px -600px;
+		}
+		#content .comment .r {
+			background-position: -1302px -600px;
+		}
+		#content .comment .s {
+			background-position: -152px -820px;
+		}
+		#content .comment .t {
+			background-position: -382px -820px;
+		}
+		#content .comment .u {
+			background-position: -612px -820px;
+		}
+		#content .comment .v {
+			background-position: -842px -820px;
+		}
+		#content .comment .w {
+			background-position: -1072px -820px;
+		}
+		#content .comment .x {
+			background-position: -1302px -820px;
+		}
+		#content .comment .y {
+			background-position: -152px -1040px;
+		}
+		#content .comment .z {
+			background-position: -382px -1040px;
+		}
+		#content .comment .n1 {
+			background-position: -612px -1040px;
+		}
+		#content .comment .n2 {
+			background-position: -842px -1040px;
+		}
+		#content .comment .n3 {
+			background-position: -1072px -1040px;
+		}
+		#content .comment .n4 {
+			background-position: -1302px -1040px;
+		}
+		#content .comment .n5 {
+			background-position: -152px -1260px;
+		}
+		#content .comment .n6 {
+			background-position: -382px -1260px;
+		}
+		#content .comment .n7 {
+			background-position: -612px -1260px;
+		}
+		#content .comment .n8 {
+			background-position: -842px -1260px;
+		}
+		#content .comment .n9 {
+			background-position: -1072px -1260px;
+		}
+		#content .comment .n0 {
+			background-position: -1302px -1260px;
+		}
 	</style>
 </head>
 <body>
@@ -53,15 +159,14 @@
 		</div>
 		<div id="content">
 			<div class="comment">
-				<div class="avatar">
-					<img src="img/image/a.png">
+				<div class="avatar a">
+					<!-- <img src="img/image/a.png"> -->
 				</div>
 				<p>Anh</p>
 				<p>0987654321</p>
 			</div>
 			<div class="comment">
-				<div class="avatar">
-					<img src="img/image/b.png">
+				<div class="avatar b">
 				</div>
 				<p>Binh</p>
 				<p>12345fdhzfffffffffffffshtdhdgstjgdfnfggfhhsfghsfghsfghsfghsfhsyt</p>
@@ -72,13 +177,18 @@
 <script type="text/javascript">
 	$(function(){
 		$('#btnComment').click(function(){
+			var row = '';
 			var name = $('#name').val();
 			var firtName = name.substring(0,1).toLowerCase();
-			var row = '<div class="comment"> <div class="avatar">';
+			var val = /^[0-9]$/;
+			if (val.test(firtName)) {
+				firtName = 'n' + firtName;
+			}
+			row += '<div class="comment"> <div class="avatar ' + firtName + '"></div>';
 			var comment = $('#comment').val();
 			if(comment != '' && name != '') {
-				row += '<img src="img/image/' + firtName + '.png"/>' + '</div>' + '<p>' + name + '</p>' + '<p>' + comment + '</p>';
-				row += '</div>'
+				row += '<p>' + name + '</p>' + '<p>' + comment + '</p>';
+				row += '</div>';
 				$('#content').append(row);
 			}
 		});
