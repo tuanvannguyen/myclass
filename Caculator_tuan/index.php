@@ -104,6 +104,14 @@
 				$('#operation').val('/');
 			}
 		});
+			$('#btnDel').click(function() {
+				var val1 = $('#show').val();
+				var kq = '';
+				for(var i = 0; i < (val1.length -1); i++) {
+					kq += val1[i];
+				}
+			$('#show').val(kq);
+		});
 	});
 </script>
 </html>
