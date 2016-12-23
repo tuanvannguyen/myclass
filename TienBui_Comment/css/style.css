@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: block;
+    width: 50%;
+    margin: 50px auto auto;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 600px;
+}
+
+#list {
+    overflow: auto;
+    display: block;
+    height: 200px;
+    width: 600px;
+    margin-top: 50px;
+    border: solid 1px #ddd;
+}
+
+#list .item {
+    width: 98%;
+    height: 50px;
+    margin: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ddd;
+}
+
+#list .item .avatar {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    margin: 0 5px 5px 0;
+    background: url("../img/alpabet.jpeg");
+}
+
+#list .item .content {
+    float: left;
+    display: inline-block;
+}
+
