@@ -61,10 +61,10 @@
         <button type="button" id="btnDel">DEL</button>
         <button type="button" name="btnThuong" id="btnDiv" value="/">/</button>
         <button type="submit" name="btnResult">=</button>
-<<<<<<< HEAD
+
         <button type="button" name="btnBack" id="btnBack"><-</button>
-=======
->>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+
+
     </form>
 </div>
 </body>
