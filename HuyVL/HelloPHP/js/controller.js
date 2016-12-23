@@ -35,6 +35,12 @@ $(document).ready(function () {
         }
     });
     $('#btnDel').click(function () {
+        $('#show').each(function () {
+            var last = $('#show').val().slice(0, -1);
+            $('#show').val(last);
+        });
+    })
+    $('#btnAC').click(function () {
         $('#show').val('');
     })
 });

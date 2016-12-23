@@ -66,6 +66,7 @@
         <button type="button" name="btnAdd" value="+">+</button>
         <br>
 
+        <button type="button" id="btnAC" value="AC">AC</button>
         <button type="button" id="btnZero" value="0">0</button>
         <button type="button" id="btnPoint" value=".">.</button>
         <button type="submit" name="btnResult">=</button>
