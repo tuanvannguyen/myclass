@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#head {
+    width: 350px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+#form {
+    border: 1px solid #cdcdcd;
+    height: 300px;
+    width: 350px;
+    margin: auto;
+}
+input {
+    margin-top: 5px;
+    height: 25px;
+    width: 320px;
+    margin-bottom: 5px;
+}
+button {
+    margin-left: 15px;
+    height: 35px;
+    width: 66px;
+    margin-top: 3px;
+}
