@@ -1,17 +1,20 @@
 function Tinhtoan() {
-    $('#btnDel').click(function () {
-        $('#show').val('');
-    });
+
     $('#form button').click(function () {
         var value1 = $(this).val();
         var current = $('#show').val();
+        // Nếu 1 trong 4 nút x - + / được ấn
         if ((value1 == 'x') || (value1 == '-') || (value1 == '+') || (value1 == '/')) {
+            // Nếu ô input không rỗng và 4 nút trên chưa xuất hiện
             if (current != '' && current.indexOf(value1) < 0) {
-                if((current.indexOf('+') < 0) && (current.indexOf('-') < 0) && (current.indexOf('x') < 0) && (current.indexOf('/') < 0)  ) {
+                // Nếu cả 4 nút đều chưa xuất hiện
+                if ((current.indexOf('+') < 0) && (current.indexOf('-') < 0) && (current.indexOf('x') < 0) && (current.indexOf('/') < 0)) {
+                    // Thì ô input sẽ được thêm 1 trong 4 nút
                     current += value1;
                 }
             }
-        } else {
+        } // Nếu không phải 4 nút trên thì ô input sẽ nhận số đó
+        else {
             current += value1;
         }
 
@@ -41,6 +44,13 @@ function Tinhtoan() {
     });
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
     Tinhtoan();
+    $('#btnDel').click(function () {
+        $('#show').val('');
+    });
+    $('#btnBack').click(function(){
+        var last = ($('#show').val()).slice(0,-1);
+        $('#show').val(last);
+    });
 });

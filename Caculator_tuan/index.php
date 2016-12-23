@@ -104,6 +104,8 @@
 				$('#operation').val('/');
 			}
 		});
+<<<<<<< HEAD
+=======
 			$('#btnDel').click(function() {
 				var val1 = $('#show').val();
 				var kq = '';
@@ -112,6 +114,7 @@
 				}
 			$('#show').val(kq);
 		});
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
 	});
 </script>
 </html>
