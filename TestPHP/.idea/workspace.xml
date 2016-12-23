@@ -25,12 +25,17 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="359">
               <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
 =======
             <state relative-caret-position="510">
               <caret line="51" column="54" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="54" />
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+            <state relative-caret-position="510">
+              <caret line="51" column="54" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="54" />
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
               <folding>
                 <element signature="e#355#392#0#PHP" expanded="true" />
               </folding>
@@ -39,28 +44,38 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="newjs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/newjs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
 =======
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
       <file leaf-file-name="newjs.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/newjs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+<<<<<<< HEAD
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
               <folding />
             </state>
           </provider>
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="newcss.css" pinned="false" current-in-tab="true">
 =======
       <file leaf-file-name="newcss.css" pinned="false" current-in-tab="false">
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+      <file leaf-file-name="newcss.css" pinned="false" current-in-tab="false">
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
         <entry file="file://$PROJECT_DIR$/css/newcss.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -234,14 +249,19 @@
       <updated>1482393393358</updated>
       <workItem from="1482393394722" duration="7969000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1482457469466" duration="9509000" />
 =======
       <workItem from="1482457469466" duration="6437000" />
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+      <workItem from="1482457469466" duration="6437000" />
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="17478000" />
   </component>
@@ -251,6 +271,8 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.193265" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
 =======
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
     <option name="totallyTimeSpent" value="14406000" />
   </component>
   <component name="ToolWindowManager">
@@ -258,7 +280,10 @@
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.193265" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -348,16 +373,22 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/newjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="55" column="3" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
 =======
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
     <entry file="file://$PROJECT_DIR$/css/newcss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+<<<<<<< HEAD
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
           <folding />
         </state>
       </provider>
@@ -365,12 +396,17 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="359">
           <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
 =======
         <state relative-caret-position="510">
           <caret line="51" column="54" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="54" />
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+        <state relative-caret-position="510">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="54" />
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
           <folding>
             <element signature="e#355#392#0#PHP" expanded="true" />
           </folding>
@@ -378,16 +414,22 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/newcss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
 =======
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
     <entry file="file://$PROJECT_DIR$/js/newjs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+<<<<<<< HEAD
 >>>>>>> 104ef20374db9b83cd7935ac97a4261bfdc4d7ee
+=======
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
           <folding />
         </state>
       </provider>

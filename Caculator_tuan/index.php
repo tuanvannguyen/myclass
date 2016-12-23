@@ -104,6 +104,17 @@
 				$('#operation').val('/');
 			}
 		});
+<<<<<<< HEAD
+=======
+			$('#btnDel').click(function() {
+				var val1 = $('#show').val();
+				var kq = '';
+				for(var i = 0; i < (val1.length -1); i++) {
+					kq += val1[i];
+				}
+			$('#show').val(kq);
+		});
+>>>>>>> bc1e21779acbc5fa59206218860e1ede5745f5a6
 	});
 </script>
 </html>
