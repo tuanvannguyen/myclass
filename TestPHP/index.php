@@ -61,6 +61,7 @@
         <button type="button" id="btnDel">DEL</button>
         <button type="button" name="btnThuong" id="btnDiv" value="/">/</button>
         <button type="submit" name="btnResult">=</button>
+        <button type="button" name="btnBack" id="btnBack"><-</button>
     </form>
 </div>
 </body>
